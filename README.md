@@ -2,7 +2,7 @@
 Repository containing all the scripts and models used for modeling Performance Antipatterns with queuing networks
 
 ## Run a JMT model
-1. Download the [Java Modelling Tools](http://jmt.sourceforge.net/Download.html) (note that this scripts have been tested with the JAR version of JMT 1.0.5);
+1. Download the [Java Modelling Tools](http://jmt.sourceforge.net/Download.html) (these scripts have been tested with the JAR version of JMT 1.0.5);
 2. go to the *jmt_models/* directory;
 3. open the Python script of the model that you want to run (e.g., *runSensorNet.py*, same steps work also for other models);
 4. set the *JMTPATH* variable (line 9) with the PATH of the JMT.jar file;
