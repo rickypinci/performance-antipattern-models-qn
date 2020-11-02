@@ -11,6 +11,3 @@ Repository containing all the scripts and models used for modeling Performance A
 5. run the Sensor Net model with the command: *python runSensorNet.py*;
 6. when all simulations are completed, results are stored in a *CSV* file;
 7. the *CSV* file can be used to retrieve data and plot results.
-
-// ## Run a SPEED model
-// TBD
