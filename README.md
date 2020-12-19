@@ -1,5 +1,5 @@
 # QN-based Modeling and Analysis of Software PerformanceAntipatterns for Cyber-Physical Systems (Repository)
-This is a replication package for the paper titled "QN-based Modeling and Analysis of Software PerformanceAntipatterns for Cyber-Physical Systems" and submitted to the 12th ACM/SPEC International Conference on Performance Engineering (ICPE 2021).
+This is a replication package for the paper titled "QN-based Modeling and Analysis of Software PerformanceAntipatterns for Cyber-Physical Systems" and accepted for the 12th ACM/SPEC International Conference on Performance Engineering (ICPE 2021).
 
 ## Abstract
 Identifying performance problems in modern software systems is nontrivial, even more so when looking at specific application domains, such as cyber-physical systems. The heterogeneity of software and hardware components makes the process of performance evaluation more challenging, and traditional software performance engineering techniques may fail while dealing with interacting and heterogeneous components.
