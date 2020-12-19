@@ -21,13 +21,26 @@ The *script_models/* directory contains files that can be used to plot the same 
 - *runSensorNet.py* allows generating data for any other configuration of the sensor net case study. You can test different configurations by changing variables from line 110 to line 138. Once data are generated, you can use the *analysis_case_study.ipynb* notebook to plot them (after having changed the input file).
 - *results/* directory comes with all data required to plot Figures 3, 7, 11, 12, and 13 in case you do not want to run all the simulation
 
+## Prerequisites
+This is a list of other tools or library required to reproduce the results of our paper.
+- [Java Modelling Tools](http://jmt.sourceforge.net/Download.html) that provides the simulator (JSIMG) used to obtain these results. Scripts in this repository have been tested with the JAR version of JMT 1.0.5
+- Python 3
+- The following Python modules:
+  - Numpy (install with *pip3 install numpy*)
+  - Pandas (install with *pip3 install pandas*)
+  - Matplotlib (install with *pip3 install matplotlib*)
+- Other Python modules that are in the *stdlib* (they do not require to be installed)
+  - os
+  - sys
+  - random
+  - xml
+
 ## Run a JMT model
-1. Download the [Java Modelling Tools](http://jmt.sourceforge.net/Download.html) (these scripts have been tested with the JAR version of JMT 1.0.5).
-2. Go to the *script_models/* directory.
-3. This directory contains all the scripts you need to generate data and plot figures as those in the paper. Next steps are described using the *runAWTY.py* script as an example. It generates data that are later used for plotting Figure 7(a) of the paper. The same steps must be used to run any other python script in this repository. If you do not want to run all simulations, the *results/* directory already contains all the data required to plot figures shown in the paper (in this case, go to step 9).
-4. Open the Python script of the model that you want to run (e.g., *runAWTY.py* for generating data needed for Figure 7(a) of the paper).
-5. Set the *JMTPATH* variable (line 9) with the PATH of the JMT.jar file.
-6. Save and exit.
-7. Run the script using the command: *python runAWTY.py*.
-8. When all simulations are completed, results are stored in a *CSV* file inside the *results/* directory.
-9. Those data can be used to plot Figure 7(a). Please, open the *analysis_methodology.ipynb* jupyter notebook and run all cells in the *Are We There Yet?* section.
+1. Go to the *script_models/* directory.
+2. This directory contains all the scripts you need to generate data and plot figures as those in the paper. Next steps are described using the *runAWTY.py* script as an example. It generates data that are later used for plotting Figure 7(a) of the paper. The same steps must be used to run any other python script in this repository. If you do not want to run all simulations, the *results/* directory already contains all the data required to plot figures shown in the paper (in this case, go to step 9).
+3. Open the Python script of the model that you want to run (e.g., *runAWTY.py* for generating data needed for Figure 7(a) of the paper).
+4. Set the *JMTPATH* variable (line 9) with the PATH of the JMT.jar file.
+5. Save and exit.
+6. Run the script using the command: *python runAWTY.py*.
+7. When all simulations are completed, results are stored in a *CSV* file inside the *results/* directory.
+8. Those data can be used to plot Figure 7(a). Please, open the *analysis_methodology.ipynb* jupyter notebook and run all cells in the *Are We There Yet?* section.
