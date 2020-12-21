@@ -27,7 +27,7 @@ The *script_models/* directory contains files that can be used to plot the same 
 - *results/* directory comes with all data required to plot Figures 3, 7, 11, 12, and 13 in case you do not want to run all the simulation
 
 ## Prerequisites
-This is a list of other tools or library required to reproduce the results of our paper.
+This is a list of other tools, libraries, and modules required to reproduce the results of our paper.
 - [Java Modelling Tools](http://jmt.sourceforge.net/Download.html) that provides the simulator (JSIMG) used to obtain these results. Scripts in this repository have been tested with the JAR version of JMT 1.0.5
 - Python 3
 - The following Python modules:
