@@ -1,5 +1,5 @@
 # QN-based Modeling and Analysis of Software PerformanceAntipatterns for Cyber-Physical Systems (Repository)
-This is a replication package for the paper titled "QN-based Modeling and Analysis of Software PerformanceAntipatterns for Cyber-Physical Systems" and accepted for the 12th ACM/SPEC International Conference on Performance Engineering (ICPE 2021).
+This is a replication package for the paper titled "QN-based Modeling and Analysis of Software PerformanceAntipatterns for Cyber-Physical Systems" and accepted for the 12th ACM/SPEC International Conference on Performance Engineering (ICPE 2021). The pre-print of this paper is publicly available [here](https://bit.ly/3asFJyX).
 
 ## Authors
 Riccardo Pinciroli - Gran Sasso Science Institute<br/>
