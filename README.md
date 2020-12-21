@@ -34,7 +34,7 @@ This is a list of other tools, libraries, and modules required to reproduce the 
   - Numpy (install with *pip3 install numpy*)
   - Pandas (install with *pip3 install pandas*)
   - Matplotlib (install with *pip3 install matplotlib*)
-- Other Python modules that are in the *stdlib* (they do not require to be installed)
+- Other Python modules that are in *stdlib* (they do not require to be installed)
   - os
   - sys
   - random
