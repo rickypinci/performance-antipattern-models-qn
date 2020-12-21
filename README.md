@@ -1,10 +1,10 @@
-# QN-based Modeling and Analysis of Software PerformanceA ntipatterns for Cyber-Physical Systems (Repository)
-This is a replication package for the paper titled "QN-based Modeling and Analysis of Software PerformanceAntipatterns for Cyber-Physical Systems" and accepted for the 12th ACM/SPEC International Conference on Performance Engineering (ICPE 2021). The pre-print of this paper is publicly available [here](https://bit.ly/3asFJyX).
+# QN-based Modeling and Analysis of Software Performance Antipatterns for Cyber-Physical Systems (Repository)
+This is a replication package for the paper titled "QN-based Modeling and Analysis of Software Performance Antipatterns for Cyber-Physical Systems" and accepted for the 12th ACM/SPEC International Conference on Performance Engineering (ICPE 2021). The pre-print of this paper is publicly available [here](https://bit.ly/3asFJyX).
 
 ## Authors
-Riccardo Pinciroli - Gran Sasso Science Institute<br/>
-Connie U. Smith - Performance Engineering Services<br/>
-Catia Trubiani - Gran Sasso Science Institute
+Riccardo Pinciroli - Gran Sasso Science Institute (Italy)<br/>
+Connie U. Smith - Performance Engineering Services (USA)<br/>
+Catia Trubiani - Gran Sasso Science Institute (Italy)
 
 ## Abstract
 Identifying performance problems in modern software systems is nontrivial, even more so when looking at specific application domains, such as cyber-physical systems. The heterogeneity of software and hardware components makes the process of performance evaluation more challenging, and traditional software performance engineering techniques may fail while dealing with interacting and heterogeneous components.
@@ -13,18 +13,18 @@ Starting from the specification of three software performance antipatterns tailo
 
 ## Available Files
 The *script_models/* directory contains files that can be used to plot the same figure as those in the paper.
-- Jsimg files contain the model that is simulated using JMT. They should not be modified to avoid that other scripts stop working 
-- *runBaseline.py* allows generating data for Figure 3
-- *runAWTY.py* allows generating data for Figure 7(a)
-- *runIEO.py* allows generating data for Figure 7(b)
-- *runWWI.py* allows generating data for Figure 7(c)
-- *analysis_methodology.ipynb* allows plotting Figures 3 and 7
-- *runSensorNet_AWTY.py* allows generating data for Figure 11
-- *runSensorNet_IEO.py* allows generating data for Figure 12
-- *runSensorNet_WWI.py* allows generating data for Figure 13
-- *analysis_case_study.ipynb* allows plotting Figures 11, 12, and 13
+- Jsimg files contain the model that is simulated using Java Modelling Tools (please refer to the *Prerequisites* section below); they should not be modified to avoid that other scripts stop working.
+- *runBaseline.py* allows generating data for Figure 3.
+- *runAWTY.py* allows generating data for Figure 7(a).
+- *runIEO.py* allows generating data for Figure 7(b).
+- *runWWI.py* allows generating data for Figure 7(c).
+- *analysis_methodology.ipynb* allows plotting Figures 3 and 7.
+- *runSensorNet_AWTY.py* allows generating data for Figure 11.
+- *runSensorNet_IEO.py* allows generating data for Figure 12.
+- *runSensorNet_WWI.py* allows generating data for Figure 13.
+- *analysis_case_study.ipynb* allows plotting Figures 11, 12, and 13.
 - *runSensorNet.py* allows generating data for any other configuration of the sensor net case study. You can test different configurations by changing variables from line 110 to line 138. Once data are generated, you can use the *analysis_case_study.ipynb* notebook to plot them (after having changed the input file).
-- *results/* directory comes with all data required to plot Figures 3, 7, 11, 12, and 13 in case you do not want to run all the simulation
+- *results/* directory comes with all data required to plot Figures 3, 7, 11, 12, and 13 in case you do not want to run all the simulation.
 
 ## Prerequisites
 This is a list of other tools, libraries, and modules required to reproduce the results of our paper.
