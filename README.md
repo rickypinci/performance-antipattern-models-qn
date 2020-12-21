@@ -13,7 +13,7 @@ Starting from the specification of three software performance antipatterns tailo
 
 ## Available Files
 The *script_models/* directory contains files that can be used to plot the same figure as those in the paper.
-- Jsimg files contain the model that is simulated using Java Modelling Tools (please refer to the [Prerequisites section](## Prerequisite) below); they should not be modified to avoid that other scripts stop working.
+- Jsimg files contain the model that is simulated using Java Modelling Tools (please refer to the [Prerequisites section](##Prerequisite) below); they should not be modified to avoid that other scripts stop working.
 - *runBaseline.py* allows generating data for Figure 3.
 - *runAWTY.py* allows generating data for Figure 7(a).
 - *runIEO.py* allows generating data for Figure 7(b).
