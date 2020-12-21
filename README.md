@@ -38,7 +38,7 @@ This is a list of other tools, libraries, and modules required to reproduce the 
   - os
   - sys
   - random
-  - xml
+  - xml.etree.ElementTree
 
 ## Run a JMT model
 1. Go to the *script_models/* directory.
