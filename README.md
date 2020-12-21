@@ -1,6 +1,11 @@
 # QN-based Modeling and Analysis of Software PerformanceAntipatterns for Cyber-Physical Systems (Repository)
 This is a replication package for the paper titled "QN-based Modeling and Analysis of Software PerformanceAntipatterns for Cyber-Physical Systems" and accepted for the 12th ACM/SPEC International Conference on Performance Engineering (ICPE 2021).
 
+## Authors
+Riccardo Pinciroli - Gran Sasso Science Institute
+Connie U. Smith - Performance Engineering Services
+Catia Trubiani - Gran Sasso Science Institute
+
 ## Abstract
 Identifying performance problems in modern software systems is nontrivial, even more so when looking at specific application domains, such as cyber-physical systems. The heterogeneity of software and hardware components makes the process of performance evaluation more challenging, and traditional software performance engineering techniques may fail while dealing with interacting and heterogeneous components.
 The goal of this paper is to introduce a systematic methodology to understand software performance problems in cyber-physical systems. In our previous work, we listed some common bad practices, namely software performance antipatterns, that may occur. Here we are interested in shedding light on these antipatterns by means of performance models, i.e., queuing network models, that provide evidence of how antipatterns may affect the overall system performance.
@@ -37,7 +42,7 @@ This is a list of other tools or library required to reproduce the results of ou
 
 ## Run a JMT model
 1. Go to the *script_models/* directory.
-2. This directory contains all the scripts you need to generate data and plot figures as those in the paper. Next steps are described using the *runAWTY.py* script as an example. It generates data that are later used for plotting Figure 7(a) of the paper. The same steps must be used to run any other python script in this repository. If you do not want to run all simulations, the *results/* directory already contains all the data required to plot figures shown in the paper (in this case, go to step 9).
+2. This directory contains all the scripts you need to generate data and plot figures as those in the paper. Next steps are described using the *runAWTY.py* script as an example. It generates data that are later used for plotting Figure 7(a) of the paper. The same steps must be used to run any other python script in this repository. If you do not want to run all simulations, the *results/* directory already contains all the data required to plot figures shown in the paper (in this case, go to step 8).
 3. Open the Python script of the model that you want to run (e.g., *runAWTY.py* for generating data needed for Figure 7(a) of the paper).
 4. Set the *JMTPATH* variable (line 9) with the PATH of the JMT.jar file.
 5. Save and exit.
