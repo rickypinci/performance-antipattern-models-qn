@@ -3,7 +3,9 @@ This is a replication package for the paper titled "QN-based Modeling and Analys
 
 ## Authors
 Riccardo Pinciroli - Gran Sasso Science Institute
+
 Connie U. Smith - Performance Engineering Services
+
 Catia Trubiani - Gran Sasso Science Institute
 
 ## Abstract
