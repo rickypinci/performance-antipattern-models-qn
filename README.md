@@ -62,5 +62,5 @@ This is a list of other tools, libraries, and modules required to reproduce the 
 5. Use the command *python3 runSensorNet.py sensor_net_closed.placeholder.jsimg* to start the simulation of the case-study.
 6. When the simulation is completed, results are stored in a *CSV* file inside the *results/sensor_net_closed_newSim/* directory.
 7. Open the jupyter notebook *analysis_case_study.ipynb*.
-8. Substitute the content of cell *In [2]* with: *df = pd.read_csv('results/sensor_net_closed_newSim/sensor_net_closed_collectResults.csv')*.
-9. Run cells *In [1]*, *In [2]*, and *In [3]* of that notebook to print the desired results.
+8. Load the desired data using *pd.read_csv($filename)*. For example, the content of the second cell can be substituted with: *df = pd.read_csv('results/sensor_net_closed_newSim/sensor_net_closed_collectResults.csv')*.
+9. Run the first three cells of the notebook to print the desired results.
