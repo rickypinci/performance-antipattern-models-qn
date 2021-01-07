@@ -20,10 +20,11 @@ The *script_models/* directory contains files that can be used to plot the same 
 - *runIEO.py* allows generating data for Figure 7(b).
 - *runWWI.py* allows generating data for Figure 7(c).
 - *analysis_methodology.ipynb* allows plotting Figures 3 and 7.
+- *runSensorNet_Baseline.py* allows generating data for Table 6.
 - *runSensorNet_AWTY.py* allows generating data for Figure 11.
 - *runSensorNet_IEO.py* allows generating data for Figure 12.
 - *runSensorNet_WWI.py* allows generating data for Figure 13.
-- *analysis_case_study.ipynb* allows plotting Figures 11, 12, and 13.
+- *analysis_case_study.ipynb* allows generating data in Table 6 and plotting Figures 11, 12, and 13.
 - *runSensorNet.py* allows generating data for any other configuration of the sensor net case study. You can test different configurations by changing variables from line 110 to line 138. Once data are generated, you can use the *analysis_case_study.ipynb* notebook to plot them (after having changed the input file).
 - *results/* directory comes with all data required to plot Figures 3, 7, 11, 12, and 13 in case you do not want to run all the simulation.
 
@@ -43,7 +44,7 @@ This is a list of other tools, libraries, and modules required to reproduce the 
 
 ## Run a JMT model
 
-### Methodology Section
+### Approach Section
 1. Go to the *script_models/* directory.
 2. This directory contains all the scripts you need to generate data and plot figures as those in the paper. Next steps are described using the *runAWTY.py* script as an example. It generates data that are later used for plotting Figure 7(a) of the paper. The same steps must be used to run any other python script in this repository. If you do not want to run all simulations, the *results/* directory already contains all the data required to plot figures shown in the paper (in this case, go to step 8).
 3. Open the Python script of the model that you want to run (e.g., *runAWTY.py* for generating data needed for Figure 7(a) of the paper).
