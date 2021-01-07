@@ -1,4 +1,4 @@
-# Replication Package: QN-based Modeling and Analysis of Software Performance Antipatterns for Cyber-Physical Systems [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4423191.svg)](https://doi.org/10.5281/zenodo.4423191)
+# Replication Package: QN-based Modeling and Analysis of Software Performance Antipatterns for Cyber-Physical Systems
 
 This is a replication package for the paper titled "QN-based Modeling and Analysis of Software Performance Antipatterns for Cyber-Physical Systems" and accepted for the 12th ACM/SPEC International Conference on Performance Engineering (ICPE 2021). The pre-print of this paper is publicly available [here](https://cs.gssi.it/catia.trubiani/download/ICPE-2021-perf-antipatt-CPS-preprint.pdf).
 
