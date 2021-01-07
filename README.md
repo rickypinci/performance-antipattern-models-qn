@@ -42,6 +42,8 @@ This is a list of other tools, libraries, and modules required to reproduce the 
   - xml.etree.ElementTree
 
 ## Run a JMT model
+
+### Methodology Section
 1. Go to the *script_models/* directory.
 2. This directory contains all the scripts you need to generate data and plot figures as those in the paper. Next steps are described using the *runAWTY.py* script as an example. It generates data that are later used for plotting Figure 7(a) of the paper. The same steps must be used to run any other python script in this repository. If you do not want to run all simulations, the *results/* directory already contains all the data required to plot figures shown in the paper (in this case, go to step 8).
 3. Open the Python script of the model that you want to run (e.g., *runAWTY.py* for generating data needed for Figure 7(a) of the paper).
@@ -50,3 +52,15 @@ This is a list of other tools, libraries, and modules required to reproduce the 
 6. Run the script using the command: *python runAWTY.py*.
 7. When all simulations are completed, results are stored in a *CSV* file inside the *results/* directory.
 8. Those data can be used to plot Figure 7(a). Please, open the *analysis_methodology.ipynb* jupyter notebook and run all cells in the *Are We There Yet?* section.
+
+
+### Case-Study Section
+1. Go to the *script_models/* directory.
+2. To simulate sensor nets (i.e., the case-study) using different parameters, you can follow these steps. We use as an example the baseline model (with parameters in Table 5 and results in Table 6 of the paper).
+3. Open *runSensorNet.py*.
+4. Substitue *TEST_NAME = ''* (line 11) with *TEST_NAME = 'newSim'* (or any other name that you like). Then, save and exit.
+5. Use the command *python3 runSensorNet.py sensor_net_closed.placeholder.jsimg* to start the simulation of the case-study.
+6. When the simulation is completed, results are stored in a *CSV* file inside the *results/sensor_net_closed_newSim/* directory.
+7. Open the jupyter notebook *analysis_case_study.ipynb*.
+8. Substitute the content of cell *In [2]* with: *df = pd.read_csv('results/sensor_net_closed_newSim/sensor_net_closed_collectResults.csv')*.
+9. Run cells *In [1]*, *In [2]*, and *In [3]* of that notebook to print the desired results.
