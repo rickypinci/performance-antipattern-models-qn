@@ -25,7 +25,7 @@ The *script_models/* directory contains files that can be used to plot the same 
 - *runSensorNet_IEO.py* allows generating data for Figure 12.
 - *runSensorNet_WWI.py* allows generating data for Figure 13.
 - *analysis_case_study.ipynb* allows generating Table 6 and plotting Figures 11, 12, and 13.
-- *runSensorNet.py* allows generating data for any other configuration of the sensor net case study. You can test different configurations by changing variables from line 110 to line 138. Once data are generated, you can use the *analysis_case_study.ipynb* notebook to plot them (after having changed the input file).
+- *runSensorNet.py* allows generating data for any other configuration of the sensor net case study. You can test different configurations by changing variables from line 110 to line 138. Once data are generated, you can use the *analysis_case_study.ipynb* notebook to plot them (after changing the input file).
 - *results/* directory comes with all data required to plot Figures 3, 7, 11, 12, and 13 in case you do not want to run all the simulation.
 
 ## Prerequisites
