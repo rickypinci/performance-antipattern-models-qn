@@ -123,7 +123,7 @@ Z_DATA = [0.06] #Exponential (in the generateData station)
 NUM_CTRL_SERVERS = [2]
 ###### Service times at the controller ######
 S_CTRL_POLLING = [0.0001]
-S_CTRL_ANALYSIS = [0.00341 + 0.00032*i for in range(101)]
+S_CTRL_ANALYSIS = [0.00341 + 0.00032*i for i in range(101)]
 S_CTRL_STATUS = [0.0001]
 S_CTRL_EXCEPTION = [0.005]
 S_CTRL_ACTOR = [0.00216]
