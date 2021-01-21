@@ -1,4 +1,4 @@
-# Replication Package: QN-based Modeling and Analysis of Software Performance Antipatterns for Cyber-Physical Systems [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4423407.svg)](https://doi.org/10.5281/zenodo.4423407)
+# Replication Package: QN-based Modeling and Analysis of Software Performance Antipatterns for Cyber-Physical Systems
 
 
 
