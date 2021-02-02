@@ -49,23 +49,24 @@ This is a list of other tools, libraries, and modules required to reproduce the 
 ## Run a JMT model
 
 ### Approach Section
-1. Go to the *script_models/* directory.
-2. This directory contains all the scripts you need to generate data and plot figures as those in the paper. Next steps are described using the *runAWTY.py* script as an example. It generates data that are later used for plotting Figure 7(a) of the paper. The same steps must be used to run any other python script in this repository. If you do not want to run all simulations, the *results/* directory already contains all the data required to plot figures shown in the paper (in this case, go to step 8).
-3. Open the Python script of the model that you want to run (e.g., *runAWTY.py* for generating data needed for Figure 7(a) of the paper).
-4. Set the *JMTPATH* variable (line 9) with the PATH of the JMT.jar file.
-5. Save and exit.
-6. Run the script using the command: *python runAWTY.py*.
-7. When all simulations are completed, results are stored in a *CSV* file inside the *results/* directory.
-8. Those data can be used to plot Figure 7(a). Please, open the *analysis_methodology.ipynb* jupyter notebook and run all cells in the *Are We There Yet?* section.
+1. Set the <tt>JMTPATH</tt> variable in *varEnv.py* with the PATH of the JMT.jar file.
+2. Go to the *script_models/* directory.
+3. This directory contains all the scripts you need to generate data and plot figures as those in the paper. Next steps are described using the *runAWTY.py* script as an example. It generates data that are later used for plotting Figure 7(a) of the paper. The same steps must be used to run any other python script in this repository. If you do not want to run all simulations, the *results/* directory already contains all the data required to plot figures shown in the paper (in this case, go to step 8).
+4. Save and exit.
+5. Run the script using the command: <tt>python runAWTY.py</tt>.
+6. When all simulations are completed, results are stored in a *CSV* file inside the *results/* directory.
+7. Those data can be used to plot Figure 7(a). Please, open the *analysis_methodology.ipynb* jupyter notebook and run all cells in the *Are We There Yet?* section.
 
 
 ### Case-Study Section
-1. Go to the *script_models/* directory.
-2. To simulate sensor nets (i.e., the case-study) using different parameters, you can follow these steps. We use as an example the baseline model (with parameters in Table 5 and results in Table 6 of the paper).
-3. Open *runSensorNet.py*.
-4. Substitue *TEST_NAME = ''* (line 11) with *TEST_NAME = 'newSim'* (or any other name that you like). Then, save and exit.
-5. Use the command *python3 runSensorNet.py sensor_net_closed.placeholder.jsimg* to start the simulation of the case-study.
-6. When the simulation is completed, results are stored in a *CSV* file inside the *results/sensor_net_closed_newSim/* directory.
-7. Open the jupyter notebook *analysis_case_study.ipynb*.
-8. Load the desired data using *pd.read_csv($filename)*. For example, the content of the second cell can be substituted with: *df = pd.read_csv('results/sensor_net_closed_newSim/sensor_net_closed_collectResults.csv')*.
-9. Run the first three cells of the notebook to print the desired results.
+1. Set the <tt>JMTPATH</tt> variable in *varEnv.py* with the PATH of the JMT.jar file.
+2. Go to the *script_models/* directory.
+3. To simulate sensor nets (i.e., the case-study) using different parameters, you can follow these steps. We use as an example the baseline model (with parameters in Table 5 and results in Table 6 of the paper).
+4. Open *runSensorNet.py*.
+5. Substitue *TEST_NAME = ''* (line 11) with *TEST_NAME = 'newSim'* (or any other name that you like). Then, save and exit.
+6. The parameters used in these scripts allow obtaining the same results shown in the paper. Feel free to change the *Simulation parameters* section of each script to test different system configurations.
+7. Use the command <tt>python3 runSensorNet.py sensor_net_closed.placeholder.jsimg</tt> to start the simulation of the case-study.
+8. When the simulation is completed, results are stored in a *CSV* file inside the *results/sensor_net_closed_newSim/* directory.
+9. Open the jupyter notebook *analysis_case_study.ipynb*.
+10. Load the desired data using <tt>pd.read\_csv($filename)</tt>. For example, the content of the second cell can be substituted with: <tt>df = pd.read_csv('results/sensor\_net\_closed\_newSim/sensor\_net\_closed\_collectResults.csv')</tt>.
+11. Run the first three cells of the notebook to print the desired results.
