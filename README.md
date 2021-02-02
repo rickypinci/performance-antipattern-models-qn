@@ -33,7 +33,7 @@ Starting from the specification of three software performance antipatterns tailo
 
 ## Prerequisites
 This is a list of other tools, libraries, and modules required to reproduce the results of our paper.
-- [Java Modelling Tools](http://jmt.sourceforge.net/Download.html) that provides the simulator (JSIMG) used to obtain these results. Scripts in this repository have been tested with the JAR version of JMT 1.0.5
+- [Java Modelling Tools](http://jmt.sourceforge.net/Download.html) that provides the simulator (JSIMG) used to obtain these results. Scripts in this repository have been tested with the JAR version of JMT 1.1.0
 - Python 3
 - The following Python modules:
   - Numpy (install with *pip3 install numpy*)
