@@ -15,7 +15,8 @@ The goal of this paper is to introduce a systematic methodology to understand so
 Starting from the specification of three software performance antipatterns tailored for cyber-physical systems, we provide the queuing network models capturing the corresponding bad practices. The analysis of these models demonstrates their usefulness in recognizing performance problems early in the software development process. This way, performance engineers are supported in the task of detecting and fixing the performance criticalities.
 
 ## Available Files
-The *script_models/* directory contains files that can be used to plot the same figure as those in the paper.
+- *varEnv.py* allows specifying the <tt>JMTPATH</tt> variable (i.e., where the *jar* file of the *Java Modelling Tools* is located) that is used in all the scripts of the package.
+- The *script_models/* directory contains files that can be used to plot the same figure as those in the paper. These files are listed in the following.
 - Jsimg files contain the model that is simulated using Java Modelling Tools (please, refer to the [Prerequisites](#prerequisites) section below); they should not be modified to avoid that other scripts stop working.
 - *runBaseline.py* allows generating data for Figure 3.
 - *runAWTY.py* allows generating data for Figure 7(a).
