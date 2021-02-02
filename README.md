@@ -61,12 +61,11 @@ This is a list of other tools, libraries, and modules required to reproduce the 
 ### Case-Study Section
 1. Set the <tt>JMTPATH</tt> variable in *varEnv.py* with the PATH of the JMT.jar file.
 2. Go to the *script_models/* directory.
-3. To simulate sensor nets (i.e., the case-study) using different parameters, you can follow these steps. We use as an example the baseline model (with parameters in Table 5 and results in Table 6 of the paper).
+3. To simulate sensor nets (i.e., the case-study) using different parameters, you can follow these steps. We use as an example the baseline model (with parameters in Table 5 and results in Table 6 of the paper). Feel free to change the *Simulation parameters* section of each script to test the sensor net with different input parameters.
 4. Open *runSensorNet.py*.
 5. Substitue *TEST_NAME = ''* (line 11) with *TEST_NAME = 'newSim'* (or any other name that you like). Then, save and exit.
-6. The parameters used in these scripts allow obtaining the same results shown in the paper. Feel free to change the *Simulation parameters* section of each script to test different system configurations.
-7. Use the command <tt>python3 runSensorNet.py sensor_net_closed.placeholder.jsimg</tt> to start the simulation of the case-study.
-8. When the simulation is completed, results are stored in a *CSV* file inside the *results/sensor_net_closed_newSim/* directory.
-9. Open the jupyter notebook *analysis_case_study.ipynb*.
-10. Load the desired data using <tt>pd.read\_csv($filename)</tt>. For example, the content of the second cell can be substituted with: <tt>df = pd.read_csv('results/sensor\_net\_closed\_newSim/sensor\_net\_closed\_collectResults.csv')</tt>.
-11. Run the first three cells of the notebook to print the desired results.
+6. Use the command <tt>python3 runSensorNet.py sensor_net_closed.placeholder.jsimg</tt> to start the simulation of the case-study.
+7. When the simulation is completed, results are stored in a *CSV* file inside the *results/sensor_net_closed_newSim/* directory.
+8. Open the jupyter notebook *analysis_case_study.ipynb*.
+9. Load the desired data using <tt>pd.read\_csv($filename)</tt>. For example, the content of the second cell can be substituted with: <tt>df = pd.read_csv('results/sensor\_net\_closed\_newSim/sensor\_net\_closed\_collectResults.csv')</tt>.
+10. Run the first three cells of the notebook to print the desired results.
