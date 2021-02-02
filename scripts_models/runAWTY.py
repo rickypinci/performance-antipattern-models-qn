@@ -1,11 +1,13 @@
 import random
-import sys
 import os
 import xml.etree.ElementTree as et
 import numpy as np
+import sys
+sys.path.insert(1, '../')
+from varEnv import *
 
 # Constants
-JMTPATH = '~/JMT/JMT-1.0.5.jar'
+#JMTPATH = '~/JMT/JMT-1.0.5.jar'
 PATTERNNAME = 'AreWeThereYet'
 SOURCEFILE = 'device-server-' + PATTERNNAME + '.placeholder.jsimg'
 NUM_CUSTOMERS_CL1 = 10

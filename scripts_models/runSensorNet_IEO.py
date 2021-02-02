@@ -1,12 +1,14 @@
 import random
-import sys
 import os
 import time
 import xml.etree.ElementTree as et
 import numpy as np
+import sys
+sys.path.insert(1, '../')
+from varEnv import *
 
 # Constants
-JMTPATH = '~/JMT/JMT-1.0.5.jar'
+#JMTPATH = '~/JMT/JMT-1.0.5.jar'
 PATTERNNAME = ''
 TEST_NAME = 'IEO_noException'
 MODEL_NAME = 'sensor_net_closed'
